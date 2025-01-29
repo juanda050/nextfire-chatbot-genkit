@@ -7,6 +7,7 @@ import { AppSidebar } from "@/components/app-sidebar";
 import { Separator } from "@radix-ui/react-separator";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { ModeToggle } from "@/components/mode-toggle";
+import { Button } from "@/components/ui/button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -51,17 +52,18 @@ export default function RootLayout({
                       <BreadcrumbList>
                         <BreadcrumbItem className="hidden md:block">
                           <BreadcrumbLink href="#">
-                            Building Your Application
+                            You have questions
                           </BreadcrumbLink>
                         </BreadcrumbItem>
                         <BreadcrumbSeparator className="hidden md:block" />
                         <BreadcrumbItem>
-                          <BreadcrumbPage>Data Fetching</BreadcrumbPage>
+                          <BreadcrumbPage>Chat</BreadcrumbPage>
                         </BreadcrumbItem>
                       </BreadcrumbList>
                     </Breadcrumb>
                   </div>
-                  <div className='mr-4'>
+                  <div className='mr-4 flex items-center gap-2'>
+                    <Button variant="outline" size="sm">New Chat</Button>
                     <ModeToggle />
                   </div>
                 </header>

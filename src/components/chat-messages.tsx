@@ -6,6 +6,7 @@ import { PaperclipIcon, SendIcon } from 'lucide-react';
 import { ScrollArea } from './ui/scroll-area';
 import { Input } from './ui/input';
 import Markdown from 'react-markdown';
+import CardRecomendedPrompt from './card-recomen-chats';
 
 const ChatMessages = () => {
     const [message, setMessage] = useState<string>('');
@@ -17,11 +18,9 @@ const ChatMessages = () => {
     }
 
     return (
-        <div className='flex flex-col justify-between h-[80vh] sm:mx-20 bg-blue-700'>
-            <ScrollArea className='space-x-2'>
-                <Markdown>
-                    {message}
-                </Markdown>
+        <div className='flex flex-col justify-between h-[85vh] md:mx-20 '>
+            <ScrollArea className='space-x-2 mb-5'>
+                {message ? <Markdown>{message}</Markdown> : <CardRecomendedPrompt />}
             </ScrollArea>
             <form action={sendMessage} className='flex space-x-2'>
                 <label className='hidden' htmlFor="theme">
@@ -30,7 +29,7 @@ const ChatMessages = () => {
                 <Button type='button' size='icon' variant='outline' className='rounded-full'>
                     <PaperclipIcon />
                 </Button>
-                <Input type="text" name="theme" id="theme" />
+                <Input type="text" name="theme" id="theme" autoComplete="off" />
                 <Button type="submit" size="icon">
                     <SendIcon className="size-4" />
                 </Button>
