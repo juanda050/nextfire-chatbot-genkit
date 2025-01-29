@@ -16,7 +16,6 @@ import {
     SidebarHeader,
     SidebarRail,
 } from "@/components/ui/sidebar"
-import { Button } from "./ui/button"
 
 // This is sample data.
 const data = {
