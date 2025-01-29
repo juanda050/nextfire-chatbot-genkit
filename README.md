@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# nextfire-chatbot-genkit
+Google AI as a System Chatbot Assistant is an open-source project that builds an AI-based chatbot for use as an interactive assistant in various systems. Developed with Next.js 15 and TypeScript, it leverages Google's AI technology to offer responsive and intelligent conversations.
+>>>>>>> af387bb27eee7076c5618300cc32b9a4ad8f052e
