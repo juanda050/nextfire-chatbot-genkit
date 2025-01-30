@@ -1,7 +1,7 @@
 # nextfire-chatbot-genkit
 
 ## 🎨 Dashboard Preview
-<img width="956" alt="Screenshot 2025-01-29 225151" src="https://github.com/user-attachments/assets/418ea255-f799-4d6f-9da4-b0f99021039d" />
+<img width="956" alt="Screenshot 2025-01-31 054050" src="https://github.com/user-attachments/assets/f2ffe0a3-c4dc-4e0b-819c-9b77d67e7b00" />
 
 🚀 **NextFire Chatbot GenKit** is an open-source project designed to help developers integrate AI-powered chatbot assistants into various systems, such as e-commerce, blogs, and other applications. Built with **Next.js 15**, **Firebase**, and **Gemini 1.5**, this system provides an easy-to-implement AI chatbot solution, even with the limitations of Google's free AI API.
 
