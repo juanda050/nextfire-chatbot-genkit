@@ -24,8 +24,8 @@ const CardRecomendedPrompt = () => {
                 <div className='container px-4 md:px-6'>
                     <div className='flex flex-col items-center space-y-4 text-center'>
                         <div className='w-full max-w-sm relative'>
-                            <div className='relative w-full h-40 mt-2 border rounded-lg'>
-                                <Image src="/owlbot.jpeg" alt="XAI Logo" layout='fill' className='object-contain aspect-square' />
+                            <div className='relative w-full h-32 mt-2 border rounded-lg'>
+                                <Image src="/owl.png" alt="XAI Logo" layout='fill' className='object-contain aspect-square dark:invert rounded-full' />
                             </div>
                             <div className='absolute bottom-0 right-0 left-0 bg-black/90 text-white p-2 rounded-b-lg font-bold uppercase'>
                                 Powered By NightOwlBot</div>
