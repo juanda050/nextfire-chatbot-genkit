@@ -11,23 +11,24 @@
 - 💬 **AI Chatbot** – Uses Google AI (Gemini 1.5) to provide intelligent responses in various scenarios.
 - 📝 **Chat History** – Store and manage user conversations with Firebase.
 - 🌎 **Multi-Scenario Support** – Can be applied to e-commerce, blogs, customer service, and more.
+- 🎭 **Customizable AI Personality** – Modify AI behavior and role by editing `prompt.ts`.
 - 🚀 **Built with Next.js 15** – High performance, SEO-friendly, and easy to develop.
 
 ## 🛠️ Installation and Running the Project
 
 Ensure you have **Node.js** and **npm** installed before starting.
 
-# Clone this repository
+### Clone this repository
 ```bash
 git clone https://github.com/username/nextfire-chatbot-genkit.git
 ```
 
-# Navigate to the project directory
+### Navigate to the project directory
 ```bash
 cd nextfire-chatbot-genkit
 ```
 
-# Install dependencies
+### Install dependencies
 ```bash
 npm install
 ```
@@ -47,9 +48,45 @@ echo "GOOGLE_GENAI_API_KEY=your_gemini_api" > .env.local
 ```
 
 ### 🚀 Run the Development Server
-
 ```bash
 npm run dev
+```
+
+## 🛠️ Modifying AI Character or Role
+
+The chatbot's personality, role, and response limitations can be adjusted by editing `src/app/prompt.ts`. Here’s how:
+
+### Example: Veterinary Assistant
+```typescript
+export const DIAGNOSIS_PROMPT = `
+Kamu adalah "Juanda", sebuah asisten sistem berbasis AI yang dirancang untuk membantu dalam bidang kedokteran hewan. Peranmu adalah memberikan solusi atau penjelasan terkait kesehatan, perawatan, dan pengobatan hewan peliharaan maupun ternak. Kamu juga dapat memberikan informasi tentang dirimu jika diminta.
+
+Aturan utama:
+1. Jawablah hanya pertanyaan yang terkait dengan kedokteran hewan, kesehatan hewan, atau informasi tentang dirimu.
+2. Jika ada pertanyaan di luar bidang ini, balas dengan tegas: "Kamu serius? Saya hanya asisten AI untuk kedokteran hewan."
+`;
+```
+
+### Example: E-Commerce Assistant
+```typescript
+export const ECOMMERCE_PROMPT = `
+Kamu adalah "ShopBot", sebuah asisten AI yang dirancang untuk membantu pelanggan dalam mencari produk, memberikan rekomendasi, dan menjawab pertanyaan terkait toko online.
+
+Aturan utama:
+1. Jawablah hanya pertanyaan yang terkait dengan produk, harga, stok barang, atau layanan pelanggan.
+2. Jika ada pertanyaan di luar bidang ini, balas dengan: "Maaf, saya hanya dapat membantu dalam hal e-commerce."
+`;
+```
+
+### Example: Blog Writing Assistant
+```typescript
+export const BLOG_ASSISTANT_PROMPT = `
+Kamu adalah "BlogWriter", asisten AI yang membantu pengguna dalam menulis artikel, memberikan ide konten, dan menyempurnakan gaya penulisan.
+
+Aturan utama:
+1. Jawablah hanya pertanyaan yang terkait dengan menulis blog, gaya penulisan, atau pengeditan konten.
+2. Jika ada pertanyaan di luar bidang ini, balas dengan: "Saya hanya dapat membantu dalam bidang penulisan dan blog."
+`;
 ```
 
 ## 🤝 Contributing
@@ -78,4 +115,3 @@ Contributions are welcome! To contribute to this project:
 ---
 
 Feel free to suggest new features or improvements via issues or pull requests. Happy coding! 🚀
-
