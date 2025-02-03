@@ -89,29 +89,9 @@ Aturan utama:
 `;
 ```
 
-## 🤝 Contributing
+## 🤝 Contributing & Code of Conduct
 
-Contributions are welcome! To contribute to this project:
-
-1. **Fork** this repository.
-2. **Clone** your fork:  
-   ```bash
-   git clone https://github.com/your-username/nextfire-chatbot-genkit.git
-   ```
-3. **Create a new branch**:  
-   ```bash
-   git checkout -b feature-name
-   ```
-4. **Make your changes** and commit:  
-   ```bash
-   git commit -m "Add new feature"
-   ```
-5. **Push to your branch**:  
-   ```bash
-   git push origin feature-name
-   ```
-6. **Submit a pull request** – Your changes will be reviewed before merging.
-
----
+We welcome contributions from everyone! Please read our **[Contributing Guidelines](CONTRIBUTING.md)** before making changes. Also, make sure to follow our **[Code of Conduct](CODE_OF_CONDUCT.md)** to ensure a welcoming and inclusive environment.
 
 Feel free to suggest new features or improvements via issues or pull requests. Happy coding! 🚀
+
