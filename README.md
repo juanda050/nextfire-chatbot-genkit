@@ -20,7 +20,7 @@ Ensure you have **Node.js** and **npm** installed before starting.
 
 ### Clone this repository
 ```bash
-git clone https://github.com/username/nextfire-chatbot-genkit.git
+git clone https://github.com/juanda050/nextfire-chatbot-genkit.git
 ```
 
 ### Navigate to the project directory
